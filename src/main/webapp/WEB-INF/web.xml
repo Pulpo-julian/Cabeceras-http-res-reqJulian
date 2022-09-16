@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <servlet>
+    <description></description>
+    <display-name>CabecerasRequest</display-name>
+    <servlet-name>CabecerasRequest</servlet-name>
+    <servlet-class>com.julian.soporte.headers.request.CabecerasRequest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CabecerasRequest</servlet-name>
+    <url-pattern>/CabecerasRequest</url-pattern>
+  </servlet-mapping>
+  <display-name>request-response-cabeceras</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ProductoController</display-name>
+    <servlet-name>ProductoController</servlet-name>
+    <servlet-class>com.julian.soporte.headers.controllers.ProductoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductoController</servlet-name>
+    <url-pattern>/ProductoController</url-pattern>
+  </servlet-mapping>
+</web-app>
